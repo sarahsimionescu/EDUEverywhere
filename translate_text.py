@@ -1,7 +1,6 @@
 # pipenv install google-cloud-translate==2.0.1
 
 import os
-import sys
 from google.oauth2 import service_account
 from google.cloud import translate_v2 as translate
 
