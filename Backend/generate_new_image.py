@@ -7,7 +7,7 @@ import io
 from google.cloud import vision
 
 # Identifies our Google Cloud API Credentials
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = r'key.json'
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = r'vision_key.json'
 
 # Establish encodings for feature types (from Google Cloud)
 

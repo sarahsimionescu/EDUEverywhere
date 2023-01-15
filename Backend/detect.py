@@ -1,5 +1,7 @@
 import io
 import os
+from enum import Enum
+from PIL import Image, ImageDraw, ImageFont
 
 # Imports the Google Cloud client library
 from google.cloud import vision
@@ -33,6 +35,30 @@ class FeatureType(Enum):
     PARA = 3
     WORD = 4
     SYMBOL = 5
+
+
+def draw_cover_box(image, bounds, color):
+    """Draw a border around the image using the hints in the vector list."""
+    draw = ImageDraw.Draw(image)
+
+    for bound in bounds:
+        draw.polygon(
+            [
+                bound.vertices[0].x,
+                bound.vertices[0].y,
+                bound.vertices[1].x,
+                bound.vertices[1].y,
+                bound.vertices[2].x,
+                bound.vertices[2].y,
+                bound.vertices[3].x,
+                bound.vertices[3].y,
+            ],
+            color,
+            color,
+        )
+        #myFont = ImageFont.truetype('IndieFlower-Regular.ttf', 10)
+        #draw.text((bound.vertices[0].x, bound.vertices[0].y), "Sample text", font=myFont, fill=(255, 0, 0))
+    return image
 
 
 for page in document.pages:
