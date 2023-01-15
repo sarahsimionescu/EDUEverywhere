@@ -8,7 +8,7 @@ from google.cloud import vision
 
 
 # Identifies our Google Cloud API Credentials
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = r'key.json'
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = r'vision_key.json'
 
 # Instantiates a client
 client = vision.ImageAnnotatorClient()
@@ -37,27 +37,31 @@ class FeatureType(Enum):
     SYMBOL = 5
 
 
-def draw_cover_box(image, bounds, color):
+output_image = Image.open("note.jpg")
+output_image = output_image.convert("RGB")
+
+
+def draw_cover_box(image, bounds, color, string):
     """Draw a border around the image using the hints in the vector list."""
     draw = ImageDraw.Draw(image)
 
-    for bound in bounds:
-        draw.polygon(
-            [
-                bound.vertices[0].x,
-                bound.vertices[0].y,
-                bound.vertices[1].x,
-                bound.vertices[1].y,
-                bound.vertices[2].x,
-                bound.vertices[2].y,
-                bound.vertices[3].x,
-                bound.vertices[3].y,
-            ],
-            color,
-            color,
-        )
-        #myFont = ImageFont.truetype('IndieFlower-Regular.ttf', 10)
-        #draw.text((bound.vertices[0].x, bound.vertices[0].y), "Sample text", font=myFont, fill=(255, 0, 0))
+    draw.polygon(
+        [
+            bounds.vertices[0].x,
+            bounds.vertices[0].y,
+            bounds.vertices[1].x,
+            bounds.vertices[1].y,
+            bounds.vertices[2].x,
+            bounds.vertices[2].y,
+            bounds.vertices[3].x,
+            bounds.vertices[3].y,
+        ],
+        color,
+        color,
+    )
+    myFont = ImageFont.truetype('IndieFlower-Regular.ttf', 20)
+    draw.text((bounds.vertices[0].x, bounds.vertices[0].y),
+              string, font=myFont, fill=(255, 0, 0))
     return image
 
 
@@ -75,4 +79,8 @@ for page in document.pages:
                             paragraph_text = paragraph_text + '\n'
                         elif symbol.property.detected_break.type == breaks.EOL_SURE_SPACE:
                             paragraph_text = paragraph_text + "\n"
-            print("-------------------------\n", paragraph_text)
+            print(paragraph_text)
+            draw_cover_box(output_image, paragraph.bounding_box,
+                           "#e0e0e0", paragraph_text)
+
+output_image.save("out.jpg")
