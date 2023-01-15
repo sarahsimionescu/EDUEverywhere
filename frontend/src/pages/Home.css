@@ -30,21 +30,18 @@ ul {
   color: black;
 }
 
-.Home-link {
-  color: #61dafb;
-}
-
 .Navbar {
   align-items: center;
   display: flex;
   flex-direction: row;
   position: fixed;
   width: 100%;
-  height: 10vh;
+  height: 4rem;
   left: 0px;
   top: 0px;
   background: #313631;
   padding-left: 0.1rem;
+  padding-right: 0.1rem;
 }
 
 .Main-logo {
@@ -67,11 +64,13 @@ ul {
 }
 
 .Course-box {
+  color: #FFFFFF;
   width: 10em;
   height: 5em;
 }
 
 .Course-name {
+  color: #000000;
   font-size: 2rem;
   font-weight: 600;
 }
