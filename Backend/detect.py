@@ -80,7 +80,7 @@ for page in document.pages:
                             paragraph_text = paragraph_text + '\n'
                         elif symbol.property.detected_break.type == breaks.EOL_SURE_SPACE:
                             paragraph_text = paragraph_text + "\n"
-            print(paragraph_text)
+            # print(paragraph_text)
             draw_cover_box(output_image, paragraph.bounding_box,
                            "#e0e0e0", paragraph_text)
 
