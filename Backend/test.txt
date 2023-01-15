@@ -1,0 +1,976 @@
+            }
+            vertices {
+              x: 648
+              y: 538
+            }
+          }
+          text: "가"
+          confidence: 0.99723351
+        }
+        symbols {
+          bounding_box {
+            vertices {
+              x: 678
+              y: 491
+            }
+            vertices {
+              x: 692
+              y: 491
+            }
+            vertices {
+              x: 693
+              y: 537
+            }
+            vertices {
+              x: 679
+              y: 537
+            }
+          }
+          text: "능"
+          confidence: 0.998700082
+        }
+        symbols {
+          property {
+            detected_break {
+              type_: SPACE
+            }
+          }
+          bounding_box {
+            vertices {
+              x: 695
+              y: 491
+            }
+            vertices {
+              x: 723
+              y: 490
+            }
+            vertices {
+              x: 724
+              y: 536
+            }
+            vertices {
+              x: 696
+              y: 537
+            }
+          }
+          text: "한"
+          confidence: 0.993783593
+        }
+        confidence: 0.996572375
+      }
+      words {
+        property {
+          detected_languages {
+            language_code: "ko"
+            confidence: 1
+          }
+        }
+        bounding_box {
+          vertices {
+            x: 752
+            y: 489
+          }
+          vertices {
+            x: 808
+            y: 487
+          }
+          vertices {
+            x: 809
+            y: 533
+          }
+          vertices {
+            x: 753
+            y: 535
+          }
+        }
+        symbols {
+          bounding_box {
+            vertices {
+              x: 752
+              y: 489
+            }
+            vertices {
+              x: 775
+              y: 488
+            }
+            vertices {
+              x: 776
+              y: 534
+            }
+            vertices {
+              x: 753
+              y: 535
+            }
+          }
+          text: "설"
+          confidence: 0.997420251
+        }
+        symbols {
+          bounding_box {
+            vertices {
+              x: 781
+              y: 488
+            }
+            vertices {
+              x: 808
+              y: 487
+            }
+            vertices {
+              x: 809
+              y: 533
+            }
+            vertices {
+              x: 782
+              y: 534
+            }
+          }
+          text: "명"
+          confidence: 0.998193204
+        }
+        confidence: 0.997806728
+      }
+      words {
+        property {
+          detected_languages {
+            language_code: "ko"
+            confidence: 1
+          }
+        }
+        bounding_box {
+          vertices {
+            x: 816
+            y: 487
+          }
+          vertices {
+            x: 844
+            y: 486
+          }
+          vertices {
+            x: 845
+            y: 532
+          }
+          vertices {
+            x: 817
+            y: 533
+          }
+        }
+        symbols {
+          property {
+            detected_break {
+              type_: SPACE
+            }
+          }
+          bounding_box {
+            vertices {
+              x: 816
+              y: 487
+            }
+            vertices {
+              x: 844
+              y: 486
+            }
+            vertices {
+              x: 845
+              y: 532
+            }
+            vertices {
+              x: 817
+              y: 533
+            }
+          }
+          text: "만"
+          confidence: 0.994204342
+        }
+        confidence: 0.994204342
+      }
+      words {
+        property {
+          detected_languages {
+            language_code: "ko"
+            confidence: 1
+          }
+        }
+        bounding_box {
+          vertices {
+            x: 867
+            y: 486
+          }
+          vertices {
+            x: 916
+            y: 484
+          }
+          vertices {
+            x: 917
+            y: 530
+          }
+          vertices {
+            x: 868
+            y: 532
+          }
+        }
+        symbols {
+          bounding_box {
+            vertices {
+              x: 867
+              y: 486
+            }
+            vertices {
+              x: 892
+              y: 485
+            }
+            vertices {
+              x: 893
+              y: 531
+            }
+            vertices {
+              x: 868
+              y: 532
+            }
+          }
+          text: "가"
+          confidence: 0.995781958
+        }
+        symbols {
+          property {
+            detected_break {
+              type_: LINE_BREAK
+            }
+          }
+          bounding_box {
+            vertices {
+              x: 895
+              y: 485
+            }
+            vertices {
+              x: 916
+              y: 484
+            }
+            vertices {
+              x: 917
+              y: 530
+            }
+            vertices {
+              x: 896
+              y: 531
+            }
+          }
+          text: "설"
+          confidence: 0.970162094
+        }
+        confidence: 0.982972
+      }
+      confidence: 0.98425293
+    }
+    paragraphs {
+      bounding_box {
+        vertices {
+          x: 131
+          y: 583
+        }
+        vertices {
+          x: 149
+          y: 583
+        }
+        vertices {
+          x: 149
+          y: 601
+        }
+        vertices {
+          x: 131
+          y: 601
+        }
+      }
+      words {
+        bounding_box {
+          vertices {
+            x: 131
+            y: 583
+          }
+          vertices {
+            x: 149
+            y: 583
+          }
+          vertices {
+            x: 149
+            y: 601
+          }
+          vertices {
+            x: 131
+            y: 601
+          }
+        }
+        symbols {
+          property {
+            detected_break {
+              type_: LINE_BREAK
+            }
+          }
+          bounding_box {
+            vertices {
+              x: 131
+              y: 583
+            }
+            vertices {
+              x: 149
+              y: 583
+            }
+            vertices {
+              x: 149
+              y: 601
+            }
+            vertices {
+              x: 131
+              y: 601
+            }
+          }
+          text: "E"
+          confidence: 0.971318
+        }
+        confidence: 0.971318
+      }
+      confidence: 0.971318
+    }
+    block_type: TEXT
+    confidence: 0.983809948
+  }
+  blocks {
+    bounding_box {
+      vertices {
+        x: 129
+        y: 1054
+      }
+      vertices {
+        x: 141
+        y: 1054
+      }
+      vertices {
+        x: 140
+        y: 1076
+      }
+      vertices {
+        x: 128
+        y: 1076
+      }
+    }
+    paragraphs {
+      bounding_box {
+        vertices {
+          x: 129
+          y: 1054
+        }
+        vertices {
+          x: 141
+          y: 1054
+        }
+        vertices {
+          x: 140
+          y: 1076
+        }
+        vertices {
+          x: 128
+          y: 1076
+        }
+      }
+      words {
+        bounding_box {
+          vertices {
+            x: 129
+            y: 1054
+          }
+          vertices {
+            x: 141
+            y: 1054
+          }
+          vertices {
+            x: 140
+            y: 1076
+          }
+          vertices {
+            x: 128
+            y: 1076
+          }
+        }
+        symbols {
+          property {
+            detected_break {
+              type_: LINE_BREAK
+            }
+          }
+          bounding_box {
+            vertices {
+              x: 129
+              y: 1054
+            }
+            vertices {
+              x: 141
+              y: 1054
+            }
+            vertices {
+              x: 140
+              y: 1076
+            }
+            vertices {
+              x: 128
+              y: 1076
+            }
+          }
+          text: "0"
+          confidence: 0.18109791
+        }
+        confidence: 0.18109791
+      }
+      confidence: 0.18109791
+    }
+    block_type: TEXT
+    confidence: 0.18109791
+  }
+  blocks {
+    bounding_box {
+      vertices {
+        x: 236
+        y: 942
+      }
+      vertices {
+        x: 349
+        y: 945
+      }
+      vertices {
+        x: 348
+        y: 984
+      }
+      vertices {
+        x: 235
+        y: 981
+      }
+    }
+    paragraphs {
+      bounding_box {
+        vertices {
+          x: 236
+          y: 942
+        }
+        vertices {
+          x: 349
+          y: 945
+        }
+        vertices {
+          x: 348
+          y: 984
+        }
+        vertices {
+          x: 235
+          y: 981
+        }
+      }
+      words {
+        property {
+          detected_languages {
+            language_code: "ko"
+            confidence: 1
+          }
+        }
+        bounding_box {
+          vertices {
+            x: 236
+            y: 942
+          }
+          vertices {
+            x: 289
+            y: 943
+          }
+          vertices {
+            x: 288
+            y: 982
+          }
+          vertices {
+            x: 235
+            y: 981
+          }
+        }
+        symbols {
+          bounding_box {
+            vertices {
+              x: 236
+              y: 943
+            }
+            vertices {
+              x: 268
+              y: 944
+            }
+            vertices {
+              x: 267
+              y: 982
+            }
+            vertices {
+              x: 235
+              y: 981
+            }
+          }
+          text: "반"
+          confidence: 0.901844382
+        }
+        symbols {
+          property {
+            detected_break {
+              type_: SPACE
+            }
+          }
+          bounding_box {
+            vertices {
+              x: 269
+              y: 943
+            }
+            vertices {
+              x: 289
+              y: 944
+            }
+            vertices {
+              x: 288
+              y: 981
+            }
+            vertices {
+              x: 268
+              y: 981
+            }
+          }
+          text: "응"
+          confidence: 0.956582904
+        }
+        confidence: 0.929213643
+      }
+      words {
+        property {
+          detected_languages {
+            language_code: "ko"
+            confidence: 1
+          }
+        }
+        bounding_box {
+          vertices {
+            x: 298
+            y: 944
+          }
+          vertices {
+            x: 349
+            y: 945
+          }
+          vertices {
+            x: 348
+            y: 983
+          }
+          vertices {
+            x: 297
+            y: 982
+          }
+        }
+        symbols {
+          bounding_box {
+            vertices {
+              x: 298
+              y: 944
+            }
+            vertices {
+              x: 324
+              y: 945
+            }
+            vertices {
+              x: 323
+              y: 983
+            }
+            vertices {
+              x: 297
+              y: 982
+            }
+          }
+          text: "물"
+          confidence: 0.983724177
+        }
+        symbols {
+          property {
+            detected_break {
+              type_: LINE_BREAK
+            }
+          }
+          bounding_box {
+            vertices {
+              x: 323
+              y: 945
+            }
+            vertices {
+              x: 349
+              y: 946
+            }
+            vertices {
+              x: 348
+              y: 984
+            }
+            vertices {
+              x: 322
+              y: 983
+            }
+          }
+          text: "질"
+          confidence: 0.955318451
+        }
+        confidence: 0.969521284
+      }
+      confidence: 0.949367464
+    }
+    block_type: TEXT
+    confidence: 0.949367464
+  }
+  blocks {
+    bounding_box {
+      vertices {
+        x: 609
+        y: 668
+      }
+      vertices {
+        x: 718
+        y: 665
+      }
+      vertices {
+        x: 719
+        y: 705
+      }
+      vertices {
+        x: 610
+        y: 708
+      }
+    }
+    paragraphs {
+      bounding_box {
+        vertices {
+          x: 609
+          y: 668
+        }
+        vertices {
+          x: 718
+          y: 665
+        }
+        vertices {
+          x: 719
+          y: 705
+        }
+        vertices {
+          x: 610
+          y: 708
+        }
+      }
+      words {
+        bounding_box {
+          vertices {
+            x: 609
+            y: 668
+          }
+          vertices {
+            x: 663
+            y: 667
+          }
+          vertices {
+            x: 664
+            y: 707
+          }
+          vertices {
+            x: 610
+            y: 708
+          }
+        }
+        symbols {
+          bounding_box {
+            vertices {
+              x: 609
+              y: 668
+            }
+            vertices {
+              x: 637
+              y: 667
+            }
+            vertices {
+              x: 638
+              y: 707
+            }
+            vertices {
+              x: 610
+              y: 708
+            }
+          }
+          text: "생"
+          confidence: 0.906487346
+        }
+        symbols {
+          bounding_box {
+            vertices {
+              x: 641
+              y: 667
+            }
+            vertices {
+              x: 663
+              y: 666
+            }
+            vertices {
+              x: 664
+              y: 706
+            }
+            vertices {
+              x: 642
+              y: 707
+            }
+          }
+          text: "성"
+          confidence: 0.945941269
+        }
+        confidence: 0.926214337
+      }
+      words {
+        bounding_box {
+          vertices {
+            x: 671
+            y: 666
+          }
+          vertices {
+            x: 718
+            y: 665
+          }
+          vertices {
+            x: 719
+            y: 705
+          }
+          vertices {
+            x: 672
+            y: 706
+          }
+        }
+        symbols {
+          bounding_box {
+            vertices {
+              x: 671
+              y: 666
+            }
+            vertices {
+              x: 693
+              y: 665
+            }
+            vertices {
+              x: 694
+              y: 705
+            }
+            vertices {
+              x: 672
+              y: 706
+            }
+          }
+          text: "물"
+          confidence: 0.970148444
+        }
+        symbols {
+          property {
+            detected_break {
+              type_: LINE_BREAK
+            }
+          }
+          bounding_box {
+            vertices {
+              x: 696
+              y: 665
+            }
+            vertices {
+              x: 718
+              y: 664
+            }
+            vertices {
+              x: 719
+              y: 704
+            }
+            vertices {
+              x: 697
+              y: 705
+            }
+          }
+          text: "질"
+          confidence: 0.932064891
+        }
+        confidence: 0.951106668
+      }
+      confidence: 0.938660502
+    }
+    block_type: TEXT
+    confidence: 0.938660502
+  }
+  blocks {
+    bounding_box {
+      vertices {
+        x: 851
+        y: 1001
+      }
+      vertices {
+        x: 944
+        y: 996
+      }
+      vertices {
+        x: 945
+        y: 1026
+      }
+      vertices {
+        x: 853
+        y: 1031
+      }
+    }
+    paragraphs {
+      bounding_box {
+        vertices {
+          x: 851
+          y: 1001
+        }
+        vertices {
+          x: 944
+          y: 996
+        }
+        vertices {
+          x: 945
+          y: 1026
+        }
+        vertices {
+          x: 853
+          y: 1031
+        }
+      }
+      words {
+        bounding_box {
+          vertices {
+            x: 851
+            y: 1001
+          }
+          vertices {
+            x: 897
+            y: 999
+          }
+          vertices {
+            x: 898
+            y: 1029
+          }
+          vertices {
+            x: 853
+            y: 1031
+          }
+        }
+        symbols {
+          bounding_box {
+            vertices {
+              x: 851
+              y: 1002
+            }
+            vertices {
+              x: 878
+              y: 1001
+            }
+            vertices {
+              x: 879
+              y: 1030
+            }
+            vertices {
+              x: 853
+              y: 1031
+            }
+          }
+          text: "반"
+          confidence: 0.977176547
+        }
+        symbols {
+          bounding_box {
+            vertices {
+              x: 876
+              y: 1000
+            }
+            vertices {
+              x: 897
+              y: 999
+            }
+            vertices {
+              x: 898
+              y: 1028
+            }
+            vertices {
+              x: 878
+              y: 1029
+            }
+          }
+          text: "응"
+          confidence: 0.979512811
+        }
+        confidence: 0.978344679
+      }
+      words {
+        bounding_box {
+          vertices {
+            x: 902
+            y: 999
+          }
+          vertices {
+            x: 944
+            y: 997
+          }
+          vertices {
+            x: 945
+            y: 1026
+          }
+          vertices {
+            x: 904
+            y: 1028
+          }
+        }
+        symbols {
+          bounding_box {
+            vertices {
+              x: 902
+              y: 999
+            }
+            vertices {
+              x: 928
+              y: 998
+            }
+            vertices {
+              x: 929
+              y: 1027
+            }
+            vertices {
+              x: 904
+              y: 1028
+            }
+          }
+          text: "경"
+          confidence: 0.982311726
+        }
+        symbols {
+          property {
+            detected_break {
+              type_: LINE_BREAK
+            }
+          }
+          bounding_box {
+            vertices {
+              x: 927
+              y: 998
+            }
+            vertices {
+              x: 944
+              y: 997
+            }
+            vertices {
+              x: 945
+              y: 1026
+            }
+            vertices {
+              x: 929
+              y: 1027
+            }
+          }
+          text: "로"
+          confidence: 0.94119221
+        }
+        confidence: 0.961751938
+      }
+      confidence: 0.970048308
+    }
+    block_type: TEXT
+    confidence: 0.970048308
