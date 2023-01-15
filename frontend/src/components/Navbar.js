@@ -1,18 +1,24 @@
 import React from "react";
 import logo from "../images/white_logo.png"
-import { BrowserRouter, Route, Link } from "react-router-dom";
+import user from "../images/user.png"
+import { useNavigate } from 'react-router-dom';
 
-function Navbar() {
+function Navbar(props) {
+  const navigate = useNavigate();
   return (
     <nav className="Navbar">
-      <ul>
-        <li>
-          <div className="Main-logo">
-            <img src={logo} className="White-logo" alt="EDU Everywhere logo"/>
-            <p className="Logo-text">EDU Everywhere</p>
-          </div>
-        </li>
-      </ul>
+      <div className="Main-logo">
+        <img src={logo} className="White-logo" alt="EDU Everywhere logo"/>
+        <p className="Logo-text">EDU Everywhere</p>
+      </div>
+      {props.showLogin ?
+        <button onClick={() => navigate('/login')}>Log-In</button>
+      : props.hideProfile ?
+        null
+      :
+      <img src={user} className="User-icon" alt="User icon"/>
+      }
+      
     </nav>
   )
 }

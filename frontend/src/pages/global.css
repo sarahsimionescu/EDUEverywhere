@@ -1,0 +1,241 @@
+html, body{
+  font-family: 'Red Hat Display', sans-serif;
+  width: 100%;
+  height: 100%;
+  background-color: #CFE7D0;
+}
+
+h1 {
+  color: #359839;
+}
+
+h2 {
+  color: #1DC224;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+h4 {
+  color: #359839;
+  margin: 0;
+  font-weight: 600;
+  font-size: 2rem;
+  margin-bottom: 60px;
+}
+
+h5 {
+  margin: 0;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+input {
+  font-family: 'Red Hat Display', sans-serif;
+  font-style: italic;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+button {
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: white;
+  background-color: #359839;
+  border-radius: 8px;
+  width: auto;
+  height: auto;
+  padding: 5px 40px;
+  border: 1.5px solid transparent;
+  transition: background 0.5s, transform 0.5s;
+}
+
+button:hover {
+  background-color: #59d75d;
+  border: 1.5px solid white;
+  transform: translateY(-5px);
+}
+
+/*Home Page and Nav bar*/
+.Page {
+  background-color: #CFE7D0;
+  text-align: center;
+  display: flex;
+}
+
+.Home-logo {
+  height: 100%;
+  pointer-events: none;
+}
+
+.Main-field {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.Navbar {
+  z-index: 1;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  min-width: 100vw;
+  width: auto;
+  height: 4rem;
+  top: 0px;
+  background: #373e37;
+  padding: 0 2em;
+  box-sizing: border-box;
+}
+
+.Main-logo {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 0px 10px;
+}
+
+.White-logo {
+  height: 8vmin;
+  pointer-events: none;
+  
+}
+
+.User-icon {
+  height: 40px;
+  pointer-events: none;
+  filter: brightness(0) invert(1);
+}
+
+.Logo-text {
+  color: #FFFFFF;
+  font-size: 2rem;
+  font-weight: 700;
+  pointer-events: none;
+}
+
+/*Course Selection*/
+.Subtitle{
+  padding: 40px 80px;
+  font-size: 40px;
+}
+
+
+.Course-box {
+  width: 15em;
+  height: 6em;
+  border-radius: 20px;
+  /*background-image: linear-gradient(0deg, #59d75d, #359839 60%)}*/
+}
+
+.Course-name {
+  color: #ffffff;
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-align: left;
+  margin-top: -50px;
+  margin-left: -10px;
+}
+
+.Courses{
+  display: grid;
+  place-items: center;
+  padding: 0 80px;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-gap: 40px;
+}
+
+
+/*Login Screen*/
+.Login-Screen {
+  width: 100vw;
+  align-content: center;
+}
+
+.Login-Input {
+  border-color: #B0BEB1;
+  border-radius: 4px;
+  font-size: large;
+  margin-bottom: 2em;
+}
+
+/*COMPSCI2ME3 Styling*/
+.me3{
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  grid-gap: 60px;
+  width: 500px;
+  height: 400px;
+  padding: 0 80px;
+
+}
+
+.Category {
+  padding: 0 20px;
+  text-align: left;
+  border-radius: 20px;
+  background: linear-gradient(
+    to bottom,
+    #359839 -5%,
+    #359839 20%,
+    white 20%,
+    white 100%
+  );
+}
+
+.Category-2{
+  font-size: 40px;
+  margin-top: 0px;
+}
+
+.Text {
+  padding: 0;
+  color: #000000;
+  line-height: 180%;
+}
+
+/*Assessments styling*/
+.Assessments {
+  margin: 0px 40px;
+  height: 50vh;
+  padding: 10vh 7vw;
+  background-color: #F6FFF6;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Assessments-page {
+  text-align: left;
+  width: 100%;
+}
+
+
+/*Assignment1 styling*/
+.Form{
+  width: 100vw;
+  padding: 0;
+  margin-left: 80px;
+}
+
+.Form select{
+  width: 800px;
+  height: 40px;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+
+.File-upload{
+  font-size: 24px !important;
+  color: black !important;
+}

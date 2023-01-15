@@ -2,9 +2,9 @@ import React from "react";
 
 function Course(props) {
     return (
-      <div className="Course-box">
-        <p className="Course-name">{ props.name }</p>
-      </div>
+      <button className="Course-box" onClick={props.onClick}>
+        <h1 className="Course-name">{ props.name }</h1>
+      </button>
     )
   }
   
