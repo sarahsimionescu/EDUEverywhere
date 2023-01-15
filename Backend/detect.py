@@ -2,6 +2,7 @@ import io
 import os
 from enum import Enum
 from PIL import Image, ImageDraw, ImageFont
+import translate_text
 
 # Imports the Google Cloud client library
 from google.cloud import vision
@@ -61,7 +62,7 @@ def draw_cover_box(image, bounds, color, string):
     )
     myFont = ImageFont.truetype('IndieFlower-Regular.ttf', 20)
     draw.text((bounds.vertices[0].x, bounds.vertices[0].y),
-              string, font=myFont, fill=(255, 0, 0))
+              translate_text.translate_text(string), font=myFont, fill=(0, 0, 0))
     return image
 
 
