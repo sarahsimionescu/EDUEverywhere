@@ -8,7 +8,7 @@ function Assessments() {
             <div className='Assessments-page'>
                 <h1 className="Subtitle">Assessments</h1>
                 <div className='Assessments'>
-                    <div>
+                    <div className='Assessments-2'>
                         <h4>Title</h4>
                         <ul>
                             <li> <a href="/Assignment1">Assignment 1 </a> </li>
@@ -18,7 +18,7 @@ function Assessments() {
                             <li>Final Exam</li>
                         </ul>
                     </div>
-                    <div>
+                    <div className='Assessments-2'>
                         <h4>Due Date</h4>
                         <ul>
                             <li>Jan 17, 2023 11:59PM</li>
@@ -28,7 +28,7 @@ function Assessments() {
                             <li>Apr 30, 2023 8:00PM</li>
                         </ul>
                     </div>
-                    <div>
+                    <div className='Assessments-2'>
                         <h4>Submission Status</h4>
                         <ul>
                             <li>Graded</li>

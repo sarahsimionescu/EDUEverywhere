@@ -26,6 +26,7 @@ function Login() {
                     <button disabled={false}>Log-in</button>
                 </form>
             </div>
+            <div className='bg-login'></div>
         </div>
     );
 }

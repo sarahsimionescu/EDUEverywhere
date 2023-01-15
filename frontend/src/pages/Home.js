@@ -17,6 +17,7 @@ function Home() {
           <button onClick={() => navigate('/login')}>Sign-Up</button>
         </div>
       </div>
+      <div className='bg-home'></div>
     </div>
   );
 }

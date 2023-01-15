@@ -7,8 +7,11 @@ function AfterSubmission() {
     return (
         <div >
             <Navbar />
-            <h1>Your Submission was Successful!</h1>
-            <button onClick={()=>{navigate('/compsci2me3')} }>Return to Course Homepage</button>
+            <div className='Submission'>
+                <h1>Your Submission was Successful!</h1>
+                <button onClick={()=>{navigate('/compsci2me3')} }>Return to Course Homepage</button>
+            </div>
+            <div className='bg-AS'></div>
         </div>
     );
 }

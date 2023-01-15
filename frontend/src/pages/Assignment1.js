@@ -36,16 +36,20 @@ function Assignment1() {
                 
                     
                     <h1 className='File-upload'>Please select the language you wish to translate the file to</h1>
-                    <select>
+                    <select className='bot-option'>
                         <option value="korean">Korean</option>
                         <option value="french">French</option>
                         <option value="spanish">Spanish</option>
                         <option value="hindi">Hindi</option>
                         <option selected value="hindi">English</option>
                     </select>
-
-                    <input type="file" name="file" onChange={handleImage} />
-                    <button disabled={false}>Translate</button>
+                    <div >
+                        <input nameClass="Upload" type="file" size="60" name="file" onChange={handleImage} />
+                        <div>
+                            <button disabled={false} className="Translate-btn">Translate</button>
+                        </div>
+                        <div className='bg-a1'></div>
+                    </div>
                 </div>
             </form>
         </div>
