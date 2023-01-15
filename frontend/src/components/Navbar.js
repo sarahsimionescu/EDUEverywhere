@@ -12,7 +12,7 @@ function Navbar(props) {
         <p className="Logo-text">EDU Everywhere</p>
       </div>
       {props.showLogin ?
-        <button onClick={() => navigate('/login')}>Log-In</button>
+        <button onClick={() => navigate('/login')}>Sign-Up</button>
       : props.hideProfile ?
         null
       :

@@ -14,7 +14,7 @@ function Home() {
         <h1>Welcome to EDU Everywhere!</h1>
         <p>At EDU Everywhere, our goal is to globalize high-quality, accessible education through providing an all-in-one learning platform that leverages AI technology to eliminate language barriers.</p>
         <div>
-          <button onClick={() => navigate('/login')}>Sign-Up</button>
+          <button onClick={() => navigate('/login')}>Log-In</button>
         </div>
       </div>
       <div className='bg-home'></div>
