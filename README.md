@@ -1,5 +1,5 @@
 # EDU Everywhere
-EDU Everywhere is a platform that globalizes high-quality, accessible education through providing an all-in-one learning platform that leverages AI technology to eliminate language barriers.
+EDU Everywhere is a platform that globalizes high-quality, accessible education through providing an all-in-one learning platform that leverages AI technology to eliminate language barriers. This project was made as part of the DeltaHacks 9 Hackathon. Details are available on Devpost at [https://devpost.com/software/edu-everywhere](https://devpost.com/software/edu-everywhere)
 
 ## Inspiration
 Many of our friends who are international students are forced to pay four times the amount for education than of local students. As such, getting an education abroad is inaccessible for many international students, limiting their opportunities for learning and professional growth. Education is not accessible to many regions of the world. 95% of illiterate people worldwide are from developing countries (Verner, 2005). A lack of capital within these regions stunts local opportunities for accessible education, but what if education didn't have to be local?
