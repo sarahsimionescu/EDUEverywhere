@@ -23,6 +23,11 @@ The backend and frontend are currently not yet connected (due to time restrictio
 3. The translation by default will go from Korean -> English. You can change the input language by modifying `translate_text.py`. *WARNING: Changing the output language may cause errors with the chosen font.*
 4. Run `detect.py`, and the translated output will be saved to `out.jpg`
 
+## Before and After Translation
+![note](https://user-images.githubusercontent.com/97263859/213252958-a70a09e6-fc2a-41b0-b540-b51027ad88ed.jpg)
+![out](https://user-images.githubusercontent.com/97263859/213252969-baa8cd78-8eea-4632-b843-21f697560ac5.jpg)
+*The words have no meaning, but were translated accurately.*
+
 ## Challenges we ran into, Things we learned and Accomplishments that we're proud of
 For most of us, it was our first time using many of the tools, libraries and languages we did while creating this project. It was our first time using Google Cloud APIs, making a server in Flask and using React! A lot of learning, trial and error and error and error... We were under a tight time crunch, and although we could not complete some of our final components, we made it through and are proud of what we have created! Additionally, we got comfortable using essential tools that support collaboration, including GitHub, VS Live Sharing and Figma. We took the opportunity to learn to form each other's experiences and strengths to become better developers for positive change!
 
