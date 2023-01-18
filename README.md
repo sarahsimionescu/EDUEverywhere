@@ -10,6 +10,19 @@ At EDU Everywhere, **our goal is to globalize high-quality, accessible education
 ## How we built it
 We first designed [our online platform in Figma](https://www.figma.com/file/4dPOZGHRbGgogbarMWnyos/DeltaHacks9?node-id=0%3A1&t=a8DjyiW7qSnKeJp6-1), honouring a simple and intuitive design making it approachable for students. At the same time, we began developing an [AI-powered tool in Python](https://youtu.be/pUDBVPf7b1Q), which leverages the [Google Cloud Translation API](https://cloud.google.com/translate) and [Google Cloud Vision API](https://cloud.google.com/vision) to accurately and authentically translate hand-written assignments that may include diagrams, footnotes etc. This tool is a prototype of one of the many features in our platform which supports cross-language learning. We then developed the [front end of our web app](https://youtu.be/FL3L-R1_7os) in [React](https://reactjs.org/), programming interactive components in Javascript and implementing styling using CSS. Lastly, we began developing the backend server using [Flask](https://palletsprojects.com/p/flask/) to access our AI translation tools from the React web app. All in all, our web app immersively illustrates our client's perspectives when using our platform.
 
+## How to use
+The backend and frontend are currently not yet connected (due to time restrictions of the hackathon). Our progress can be observer in our `server.py` flask server.
+
+### Frontend
+1. `cd frontend`
+2. `npm start`
+
+### Backend
+1. `cd Backend`
+2. Replace the file you would like to translate with `note.jpg`
+3. The translation by default will go from Korean -> English. You can change the input language by modifying `translate_text.py`. *WARNING: Changing the output language may cause errors with the chosen font.*
+4. Run `detect.py`, and the translated output will be saved to `out.jpg`
+
 ## Challenges we ran into, Things we learned and Accomplishments that we're proud of
 For most of us, it was our first time using many of the tools, libraries and languages we did while creating this project. It was our first time using Google Cloud APIs, making a server in Flask and using React! A lot of learning, trial and error and error and error... We were under a tight time crunch, and although we could not complete some of our final components, we made it through and are proud of what we have created! Additionally, we got comfortable using essential tools that support collaboration, including GitHub, VS Live Sharing and Figma. We took the opportunity to learn to form each other's experiences and strengths to become better developers for positive change!
 
